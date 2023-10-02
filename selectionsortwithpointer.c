@@ -29,7 +29,7 @@ void selectionsort ( int ara[], int n)
 
         if(min != i )
         {
-            swap(&ara[min], &ara[i]);// as taking pointer , so passing this syntax . actually mean passing address of those arrays .
+            swap(&ara[min], &ara[i]);// This time swapping index value , not index. as taking pointer , so passing this syntax . actually mean passing address of those arrays .
         }
     }
 }
